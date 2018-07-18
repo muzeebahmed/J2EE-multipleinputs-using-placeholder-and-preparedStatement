@@ -18,7 +18,7 @@ public class JdbcDemo
 			pstmt.setDouble(3, 73.1);
 			pstmt.executeUpdate();
 			pstmt.setInt(1,6);
-			pstmt.setString(2, "haritha");
+			pstmt.setString(2, "siva");
 			pstmt.setDouble(3, 68.1);
 			pstmt.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
